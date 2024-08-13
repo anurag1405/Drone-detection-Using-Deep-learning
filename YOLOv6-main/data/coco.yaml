@@ -1,0 +1,13 @@
+# COCO 2017 dataset http://cocodataset.org
+train: data/train/images/train # 118287 images
+val: data/train/images/val  # 5000 images
+
+
+
+# number of classes
+nc: 2
+# whether it is coco dataset, only coco dataset should be set to True.
+is_coco: False
+
+# class names
+names: [ 'bird', 'drone']
